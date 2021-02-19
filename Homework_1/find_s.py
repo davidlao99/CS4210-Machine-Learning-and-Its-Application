@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: David Lao
+# FILENAME: find_s.py
+# SPECIFICATION: Finds the hypothesis using the Find-S algorithm
 # FOR: CS 4200- Assignment #1
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 20min
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard vectors and arrays

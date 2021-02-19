@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: David Lao
+# FILENAME: decision_tree.py
+# SPECIFICATION: Creates decision tree using sklearn with data from csv represented as numerical values
 # FOR: CS 4200- Assignment #1
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 1hr
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard vectors and arrays
@@ -45,7 +45,6 @@ Y_dict = {
 #transfor the original training classes to numbers and add to the vector Y. For instance Yes = 1, No = 2, so Y = [1, 1, 2, 2, ...]
 #--> add your Python code here
 # Y =
-# Y = [2]
 
 for row in db:
     X.append([X_dict[row[0]], X_dict[row[1]], X_dict[row[2]], X_dict[row[3]]])
